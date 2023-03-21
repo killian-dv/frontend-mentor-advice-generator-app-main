@@ -1,0 +1,27 @@
+// Colors
+// Primary
+$light-cyan: hsl(193, 38%, 86%);
+$green: hsl(150, 100%, 66%);
+
+// Neutral
+$grey-blue: hsl(217, 19%, 38%);
+$blue: hsl(217, 19%, 24%);
+$dark-blue: hsl(218, 23%, 16%);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: $dark-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-height: 100vh;
+}
+
