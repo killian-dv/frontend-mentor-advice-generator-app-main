@@ -15,7 +15,7 @@ Le défi consiste à créer cette application de génération de conseils à l'a
 
 Les utilisateurs doivent pouvoir
 
-- visualiser la disposition optimale de l'application en fonction de la taille de l'écran de leur appareil
+- Visualiser la disposition optimale de l'application en fonction de la taille de l'écran de leur appareil
 - Voir les états de survol de tous les éléments interactifs de la page
 - Générer un nouveau conseil en cliquant sur l'icône du dé.
 
