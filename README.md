@@ -30,6 +30,6 @@ Les utilisateurs doivent pouvoir
 
 ### Ce que j'ai appris
 
-- connecter une API à une page HTML grâce à Fetch
+- Connecter une API à une page HTML grâce à Fetch
 - Rafraichir une page en vidant le cache via un bouton
 
