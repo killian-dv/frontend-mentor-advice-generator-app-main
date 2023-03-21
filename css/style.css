@@ -25,6 +25,13 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: -moz-min-content;
+    width: min-content;
+  }
 }
 .container h1 {
   color: hsl(150, 100%, 66%);
@@ -37,10 +44,26 @@ body {
   font-size: 28px;
   text-align: center;
 }
-.container .divider {
+.container .divider-mobile {
   margin-bottom: 2rem;
 }
+@media screen and (min-width: 768px) {
+  .container .divider-mobile {
+    display: none;
+  }
+}
+.container .divider-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .container .divider-desktop {
+    margin-bottom: 2rem;
+    display: block;
+  }
+}
 .container .new-quote {
+  position: absolute;
+  bottom: -1.75rem;
   background-color: hsl(150, 100%, 66%);
   padding: 1rem;
   border-radius: 100px;

@@ -9,8 +9,9 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    position: relative;
     @media screen and (min-width: 768px) {
-        
+        width: min-content;
     }
     
     h1 {
@@ -24,10 +25,24 @@
         font-size: 28px;
         text-align: center;
     }
-    .divider {
+    .divider-mobile {
         margin-bottom: 2rem;
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+    }
+    .divider-desktop {
+        display: none;
+    }
+    @media screen and (min-width: 768px) {
+        .divider-desktop {
+            margin-bottom: 2rem;
+            display: block;
+        }
     }
     .new-quote {
+        position: absolute;
+        bottom: -1.75rem;
         background-color: $green;
         padding: 1rem;
         border-radius: 100px;
