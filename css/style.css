@@ -12,4 +12,21 @@ body {
   align-items: center;
   height: 100vh;
   max-height: 100vh;
+}
+
+.container {
+  background-color: hsl(217, 19%, 24%);
+  padding: 2rem;
+  width: 90%;
+  border-radius: 10px;
+}
+.container h1 {
+  color: hsl(150, 100%, 66%);
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.container p {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
 }/*# sourceMappingURL=style.css.map */
