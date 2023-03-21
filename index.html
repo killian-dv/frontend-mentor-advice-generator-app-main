@@ -15,7 +15,13 @@
     <h1 id="title"></h1>
     <p id="text"></p>
     <img class="divider" src="images/pattern-divider-mobile.svg" alt="divider">
-    <div class="new-quote" onclick="location.reload()"><img src="images/icon-dice.svg" alt="random"></div>
+    <div class="new-quote" id="refresh"><img src="images/icon-dice.svg" alt="random"></div>
   </div>
+
+  <script>
+  document.querySelector('#refresh').addEventListener('click', function() {
+    location.reload(true);
+  });
+  </script>
 </body>
 </html>
