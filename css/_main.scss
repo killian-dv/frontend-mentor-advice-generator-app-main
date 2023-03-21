@@ -3,6 +3,12 @@
     padding: 2rem;
     width: 90%;
     border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
     @media screen and (min-width: 768px) {
         
     }
@@ -16,5 +22,25 @@
     p {
         color: $light-cyan;
         font-size: 28px;
+        text-align: center;
+    }
+    .divider {
+        margin-bottom: 2rem;
+    }
+    .new-quote {
+        background-color: $green;
+        padding: 1rem;
+        border-radius: 50%;
+        border: none;
+        height: auto;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            background-color: $light-cyan;
+            color: $green;
+        }
+        img {
+            margin: 0;
+        }
     }
 }
